@@ -11,4 +11,11 @@ public class AppTest {
         // Here, we just assert true to make sure the test works.
         assertTrue("App test passed", true);
     }
+
+    @Test
+    public void testSimpleAddition() {
+        int a = 2, b = 3;
+        int sum = a + b;
+        assertEquals(5, sum);
+    }
 }
