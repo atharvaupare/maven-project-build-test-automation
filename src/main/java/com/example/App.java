@@ -3,6 +3,6 @@ package com.example;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("This is a simple Maven project.");
+        System.out.println("hi im keyur patil wow");
     }
 }
